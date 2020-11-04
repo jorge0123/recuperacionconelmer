@@ -1,0 +1,57 @@
+# recuperacionconelmer
+<html>
+<head>
+<title>jorge</title>
+<script>
+		function comprobarClave(){
+			clave1 = document.f1.clave1.value
+			clave2 = document.f1.clave2.value
+
+			if (clave1 == "jorge" && clave2 == "marroquin"){
+			alert("los datos coinciden...\n Pase adelante.");
+			var href ="dos.html";
+			window.location=href;
+    }
+
+    else{ 
+    	alert("las dos claves son distintas...\n intente nuevamente.");
+    	var href = "index.html";
+    	window.location=href;
+    }
+
+  }
+</script>
+</head>
+
+<body background="fondo1.jpg">
+
+<center>
+	
+	</center>
+</center>
+
+	<article id="grt">
+   	<h1><font color="blue sky"> PUEDES INGRESAR SOLO SI LOS DATOS SON CORRECTOS</h1>
+	<br>
+	debes escribir los datos correctos y java te dira sin son los correctos
+</article>
+</section>
+</nav>
+
+	<br>
+	<form action="" name="f1" style="text-align ">
+		CORREO (jorge):<br> <input type="password" name ="clave1" size="20">
+		<br>
+		PON TU CONTRASEÑA (marroquin)<br> 
+		<input type="password" name ="clave2" size="20">
+		<br>
+		<input type="button" value=" Verificar si son iguales "  onclick="comprobarClave()  " >
+
+	</form>
+ <img src="jorge.jpg"width="25%"/>
+</article>
+</section>
+</center>    
+
+ </body>
+ </html>
